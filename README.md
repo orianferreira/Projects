@@ -25,3 +25,5 @@ My front end and back end projects
 [Android History](https://aerinho.github.io/Projects/responsive-website-main/index.html)
 
 [Almeida's Revenue's](https://aerinho.github.io/Projects/revenue-website-main/index.html)
+
+[Parallax Website](https://aerinho.github.io/Projects/static-parallax-website-main/index.html)
