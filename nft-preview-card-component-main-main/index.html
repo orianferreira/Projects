@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 15px;
+        text-align: center;
+        color: white;
+        padding-top: 2.5%;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+      * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: linear-gradient(
+          to right,
+          hsl(217, 54%, 11%),
+          hsl(216, 50%, 16%)
+        );
+        margin: 5%;
+      }
+
+      main {
+        background: hsl(216, 50%, 16%);
+        border-radius: 40px;
+        width: 450px;
+        height: 750px;
+        margin: auto;
+        font-family: "Outfit", sans-serif;
+      }
+
+      section {
+        background: hsl(215, 32%, 27%);
+        border-radius: 20px;
+        width: 400px;
+        height: 690px;
+        padding: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin: auto;
+      }
+
+      section #img1 {
+        width: 350px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+      }
+
+      #img11 {
+        position: absolute;
+        top: 116px;
+        left: 765px;
+        opacity: 0;
+        background-color: hsla(178, 100%, 50%, 0.3);
+        width: 350px;
+        border-radius: 20px;
+        padding: 150px;
+      }
+
+      #img11:hover {
+        opacity: 1;
+        cursor: pointer;
+        border: 5px solid white;
+      }
+
+      section #img2 {
+        width: 50px;
+        border: 2px solid white;
+        border-radius: 50px;
+        margin-right: 10px;
+      }
+
+      section h1 {
+        margin-top: 10%;
+        margin-bottom: 1%;
+        text-align: left;
+        color: white;
+      }
+
+      section h1:hover {
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+      }
+
+      section h2 {
+        color: hsl(178, 100%, 50%);
+      }
+
+      section p {
+        padding-top: 6%;
+        padding-bottom: 1%;
+        text-align: left;
+        color: gray;
+      }
+
+      div p {
+        padding-top: 2%;
+      }
+
+      strong a {
+        color: white;
+        padding-left: 7px;
+      }
+
+      strong a:hover {
+        color: hsl(178, 100%, 50%);
+      }
+
+      #align {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+      }
+
+      .size {
+        font-size: 22px;
+        margin-bottom: 5%;
+      }
+
+      .line1 {
+        display: flex;
+        align-items: center;
+      }
+
+      .lines {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+        margin-right: 1.25rem;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 2px;
+        border-left-width: 0;
+        border-color: rgba(168, 168, 168, 0.2);
+        border-style: solid;
+      }
+
+      .space {
+        margin-right: 5px;
+      }
+
+      .text1 {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+      }
+
+      @media screen and (max-width: 1440px) {
+        #img11 {
+          top: 88px;
+          left: 480px;
+          width: 350px;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        main {
+          width: 335px;
+          height: 640px;
+        }
+
+        section {
+          width: 300px;
+          height: 575px;
+          padding: 5%;
+          margin-top: 5%;
+          margin-bottom: 5%;
+          margin: auto;
+        }
+
+        section #img1 {
+          width: 250px;
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: auto;
+        }
+
+        #img11 {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div>
+          <img src="images/image-equilibrium.jpg" alt="Cryptomoeda" id="img1" />
+          <div>
+            <img src="images/icon-view.svg" alt="" id="img11" />
+          </div>
+        </div>
+        <h1>Equilibrium #3429</h1>
+        <p class="size">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div id="align">
+          <h2>
+            <img src="images/icon-ethereum.svg" alt="" class="space" /> 0.041
+            ETH
+          </h2>
+          <p class="line1">
+            <img src="./images/icon-clock.svg" alt="" class="space" /> 3 days
+            left
+          </p>
+        </div>
+        <p class="lines"></p>
+        <p class="text1">
+          <img src="./images/image-avatar.png" alt="" id="img2" /> Creation of
+          <strong><a href="">Jules Wyvern</a></strong>
+        </p>
+      </section>
+      <div class="attribution">
+        <p>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by:<a href="https://github.com/Aerinho"> Rianzinho</a>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

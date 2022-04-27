@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 60%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #2c2c2c81, #0000007e  ), url(../image/academy.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    height: 7vh;
+    background-color: rgba(22, 22, 22, 0.5);
+}
+
+.menu-content {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+}
+
+.menu-content .list-itens {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu-content .list-itens a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+.menu-content .list-itens a::before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(251, 255, 0);
+    transition: all 1.5s ease;
+}
+
+.menu-content .list-itens a:hover::before {
+    width: 100%;
+}
+
+main {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-text {
+    text-align: center;
+    width: 850px;
+    font-size: 4rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.second-text {
+    margin-bottom: 10rem;
+    font-size: 2rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5rem;
+}
+
+.button button {
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.70);
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 0.1rem;
+    box-shadow: 0px 0px 15px;
+}
+
+.button button:hover {
+    color: orange;
+    border: 1px solid black;
+}
+
+.button button::before {
+    content: ' ';
+    border-radius: 10px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 50px;
+    background-color: rgb(50, 50, 50);
+    z-index: -1;
+    transition: 1s;
+}
+
+.button button:hover::before {
+    width: 100%;
+}

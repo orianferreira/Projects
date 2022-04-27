@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <title>Form | GN</title>
+  </head>
+  <body>
+    <div class="box">
+      <form action="">
+        <fieldset>
+          <legend><b>Customer Form</b></legend>
+          <br />
+          <div class="inputBox">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="inputUser"
+              required
+            />
+            <label for="name" class="labelInput">Full Name</label>
+          </div>
+          <br /><br />
+          <div class="inputBox">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="inputUser"
+              required
+            />
+            <label for="email" class="labelInput">Email</label>
+          </div>
+          <br /><br />
+          <div class="inputBox">
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              class="inputUser"
+              required
+            />
+            <label for="tel" class="labelInput">Phone Number</label>
+          </div>
+          <br>
+          <p>Gender:</p>
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+            required
+          />
+          <label for="female">Female</label>
+          <br />
+          <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="male"
+            required
+          />
+          <label for="male">Male</label>
+          <br />
+          <input type="radio" id="others" name="gender" value="others" required />
+          <label for="others">Other</label>
+          <br /><br />
+          <label for="date"><strong>Birth date:</strong></label>
+          <input
+            type="date"
+            name="date"
+            id="date"
+            required
+          />
+          <br /><br /><br />
+          <div class="inputBox">
+            <input
+              type="text"
+              name="city"
+              id="city"
+              class="inputUser"
+              required
+            />
+            <label for="city" class="labelInput">City</label>
+          </div>
+          <br /><br />
+          <div class="inputBox">
+            <input
+              type="text"
+              name="state"
+              id="state"
+              class="inputUser"
+              required
+            />
+            <label for="state" class="labelInput">State</label>
+          </div>
+          <br /><br />
+          <div class="inputBox">
+            <input
+              type="text"
+              name="address"
+              id="address"
+              class="inputUser"
+              required
+            />
+            <label for="address" class="labelInput">Address</label>
+          </div>
+          <br /><br />
+          <input type="submit" name="submit" id="submit" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

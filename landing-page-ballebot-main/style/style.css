@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-image: linear-gradient(to right, #955DF5, #3BA898);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-image {
+  height: 72px;
+}
+
+.header-menu {
+  display: flex;
+  padding: 10px;
+  gap: 50px;
+}
+
+.header-menu-button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.header-menu-button:hover {
+    background-color: #ecd6c481;
+    padding: 5px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: #2f2325;
+}
+
+.header-menu-item {
+  font-family: "Sarala", sans-serif;
+  color: #fff2e7;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.content {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #fff2e7;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-main-written {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content-main-written-title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.content-main-written-subtitle {
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+}
+
+.content-main-written-button {
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #2f2325;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.content-main-written-button:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.content-main-image {
+    height: 430px;
+
+}
+
+.content-secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 48px;
+}
+
+.content-secondary-title {
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2ef;
+    margin-bottom: 16px;
+}
+
+.content-secondary-paragraph {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.baseboard {
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.baseboard-image {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}

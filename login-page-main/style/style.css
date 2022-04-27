@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(#0D4FFF, #0DFFAA);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 5px;
+    box-shadow: 5px 5px 15px;
+    max-width: 70vw;
+}
+
+section h1 {
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.container input {
+    margin: 10px 10px;
+    width: calc(100% - 20px);
+    height: 70px;
+    border: none;
+    background-color: #ededed;
+    border-radius: 4px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 10px 0 10px;
+}
+
+.container label {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #9d9d9d;
+    position: absolute;
+    line-height: 70px;
+    top: 10px;
+    left: 20px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.container input:focus~label, .container input:valid~label {
+    left: 20px;
+    top: -10px;
+    color: #00cbff;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    width: calc(50% - 10px);
+    height: 70px;
+    background: #00cbff;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+button:hover {
+    background-color: #0D4FFF;
+    opacity: 0.85;
+}
+
+form a {
+    clear: both;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #555;
+    font-weight: 500;
+    padding-top: 10px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+form a:hover {
+    color: #333;
+}
+
+section img {
+    width: 250px;
+    height: 250px;
+    margin: auto 40px;
+}
+
+@media only screen and (max-width: 1080px) {
+    section img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    section {
+        min-width: 90%;
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    section {
+        min-width: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    section {
+        min-width: 95vh;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    section {
+        min-width: 40vh;
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    section {
+        min-width: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    section {
+        min-width: 45vh;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    section {
+        min-width: 40vh;
+    }
+}
