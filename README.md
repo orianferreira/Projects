@@ -1,8 +1,10 @@
 # Projects
+
 My front end and back end projects
 
-## Useful links
 [LinkedIn](https://www.linkedin.com/in/rianzinho/)
+
+## Useful links
 
 [Customer Form](https://aerinho.github.io/Projects/customer-form-main/index.html)
 
