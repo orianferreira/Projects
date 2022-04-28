@@ -22,10 +22,11 @@
 ![image](https://user-images.githubusercontent.com/64613463/152563717-bed8350f-6e3a-4d84-af0e-b5ed6e349f45.png)
 
 # [NFT Card](https://aerinho.github.io/Projects/nft-preview-card-component-main-main/index.html)
-![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
+![image](https://user-images.githubusercontent.com/64613463/165825383-d4fe670e-4845-4932-9f7d-37ca839626e9.png)
 
 # [QR Code](https://aerinho.github.io/Projects/qr-code-component-main-main/index.html)
-![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
+![image](https://user-images.githubusercontent.com/64613463/165825320-15c3a9cb-51c6-4818-982d-a748a0010df0.png)
+
 
 # [Android History](https://aerinho.github.io/Projects/responsive-website-main/index.html)
 ![image](https://user-images.githubusercontent.com/64613463/152453441-83af283e-83e1-449e-ad00-4a96d953afeb.png)
