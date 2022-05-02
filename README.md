@@ -35,3 +35,6 @@
 
 # [Parallax Website](https://aerinho.github.io/Projects/static-parallax-website-main/index.html)
 ![image](https://user-images.githubusercontent.com/64613463/153502472-267796d8-3381-4897-952a-6d136d02fdf7.png)
+
+# [Space Shooter Game](https://aerinho.github.io/Study-Materials/digital-innovation-one/JavaScript/15%20-%20Jogo%20Space%20Shooter/)
+![image](https://user-images.githubusercontent.com/64613463/166290249-f666d03b-052f-4e91-b68f-57a40c75e641.png)
